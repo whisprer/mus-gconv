@@ -1,3 +1,27 @@
+[README.md]
+
+# Mus-Gconv
+
+<p align="center">
+  <a href="https://github.com/whisprer/mus-gconv/releases"> 
+    <img src="https://img.shields.io/github/v/release/whisprer/mus-gconv?color=4CAF50&label=release" alt="Release Version"> 
+  </a>
+  <a href="https://github.com/whisprer/mus-gconv/actions"> 
+    <img src="https://img.shields.io/github/actions/workflow/status/whisprer/mus-gconv/lint-and-plot.yml?label=build" alt="Build Status"> 
+  </a>
+</p>
+
+![Commits](https://img.shields.io/github/commit-activity/m/whisprer/mus-gconv?label=commits) 
+![Last Commit](https://img.shields.io/github/last-commit/whisprer/mus-gconv) 
+![Issues](https://img.shields.io/github/issues/whisprer/mus-gconv) 
+[![Version](https://img.shields.io/badge/version-3.1.1-blue.svg)](https://github.com/whisprer/mus-gconv) 
+[![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11-lightgrey.svg)](https://www.microsoft.com/windows)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
+<p align="center">
+  <img src="mus-gconv-banner.png" width="850" alt="Mus-Gconv Banner">
+
 # MusGConv: Music-informed Graph Convolutions 
 
 This package contains implementation of the paper _Perception-Inspired Graph Convolution for Music Understanding Tasks_
@@ -16,7 +40,6 @@ conda activate musgconv
 conda install pytorch cudatoolkit=<your version of cuda> -c pytorch
 ```
 Similarly, make sure to install [Pytorch Geometric](https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html)
-
 
 To install the rest of the requirements with pip do:
 ```shell
@@ -113,7 +136,6 @@ All experiments are logged with WANDB so if you want to log the experiments you 
 ```shell
 python ./experiments/cadet.py --use_wandb --wandb_entity <your_wandb_entity>
 ```
-
 
 ## Aknowledgements
 
